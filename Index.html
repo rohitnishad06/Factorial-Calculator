@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Factorial Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-card">
+        <img src="https://avatar.iran.liara.run/public" alt="Product Image" />
+        <h2>Factorial Calculator</h2>
+        <p>Price: Free</p>
+        <p>
+          Description: Calculate factorial using both iterative and recursive
+          methods.
+        </p>
+      </div>
+
+      <div class="calculator">
+        <input
+          type="number"
+          id="numberInput"
+          placeholder="Enter a positive integer"
+        />
+        <button onclick="calculateFactorial()">Calculate</button>
+        <p id="error" class="error"></p>
+        <div id="output" class="output"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
