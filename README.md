@@ -1,9 +1,7 @@
 
 Project Overview:--------
 
-The Countdown Timer Web App allows users to set a custom future date/time and view a real-time countdown. The app includes customizable themes, input validation, and an alert when the countdown completes. The interface is designed to be intuitive, responsive, and engaging.
-
-
+This web application calculates the factorial of a number using both iterative and recursive methods. It features a clean user interface with a product card and responsive design. Input validation ensures only positive integers are accepted.
 
 
 Technologies Used:--------
@@ -12,58 +10,36 @@ HTML :-	Structure of the web page
 CSS :- Styling and responsive layout
 JavaScript :- Logic for factorial calculation
 
-
-
-
 Features :-----------
 
-Custom input for target date/time
-
-Theme switcher (light/dark/custom)
-
-Live countdown display (days, hours, minutes, seconds)
-
-Final alert when countdown reaches zero
-
-Input validation and error messages
-
-Fully responsive UI for mobile, tablet, and desktop
-
-
-
-
+Product card UI with image, name, price, and description
+Input field for number entry
+Calculates factorial using:
+    Iterative method
+    Recursive method
+Input validation for negative or invalid numbers
+Responsive design (mobile + desktop)
 
 How to Use the App:----------
 
-Open the app in your browser.
-
-Enter a future date/time in the input field.
-
-Select a theme (optional).
-
-Click Start Timer.
-
-Timer will countdown and display real-time updates.
-
-On reaching zero, an alert will appear.
-
-
-
-
+Open the web app in a browser.
+Enter a positive integer in the input field.
+Click the "Calculate" button.
+The app will display:
+Result using iterative method
+Result using recursive method
+If the input is invalid, an error message will appear.
 
 Setup Instructions:----------
 
 Download or clone the repository:
-    https://github.com/rohitnishad06/Countdown-Timer.git
+    https://github.com/rohitnishad06/Factorial-Calculator.git
 Navigate to the folder
 Open index.html in any browser.
 
-
-
-
 Project Structure:----------
 
-countdown-timer-app/ 
+factorial-app/ 
     index.html         
     style.css          
     script.js          
